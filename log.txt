@@ -1,0 +1,1156 @@
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+Java version: 21.0.6, vendor: Eclipse Adoptium, runtime: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "15.5", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/settings.xml
+[DEBUG] Reading user settings from /Users/kjss920/.m2/settings.xml
+[DEBUG] Reading global toolchains from /opt/homebrew/Cellar/maven/3.9.9/libexec/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/kjss920/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/kjss920/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/kjss920/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.aom:messaging-api-tests:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.aom:messaging-api-tests:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, test]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------< org.aom:messaging-api-tests >---------------------
+[INFO] Building messaging-api-tests 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.aom:messaging-api-tests:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [DMDP-FEED (https://pkgs.dev.azure.com/MES-SEUIT/DMDP/_packaging/DMDP-FEED/maven/v1, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [DMDP-FEED (https://pkgs.dev.azure.com/MES-SEUIT/DMDP/_packaging/DMDP-FEED/maven/v1, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathDependencies>${maven.test.additionalClasspathDependencies}</additionalClasspathDependencies>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <enableProcessChecker>${surefire.enableProcessChecker}</enableProcessChecker>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludeJUnit5Engines>${surefire.excludeJUnit5Engines}</excludeJUnit5Engines>
+  <excludedEnvironmentVariables>${surefire.excludedEnvironmentVariables}</excludedEnvironmentVariables>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>${surefire.excludes}</excludes>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests default-value="true">${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests default-value="false">${failIfNoTests}</failIfNoTests>
+  <failOnFlakeCount default-value="0">${surefire.failOnFlakeCount}</failOnFlakeCount>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkNode>${surefire.forkNode}</forkNode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includeJUnit5Engines>${surefire.includeJUnit5Engines}</includeJUnit5Engines>
+  <includes>${surefire.includes}</includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <runOrderRandomSeed>${surefire.runOrder.random.seed}</runOrderRandomSeed>
+  <session default-value="${session}"/>
+  <shutdown default-value="exit">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <systemPropertiesFile>${surefire.systemPropertiesFile}</systemPropertiesFile>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="false">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useModulePath default-value="true">${surefire.useModulePath}</useModulePath>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (/Users/kjss920/.m2/repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (/Users/kjss920/.m2/repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (/Users/kjss920/.m2/repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=316333, ConflictMarker.markTime=90083, ConflictMarker.nodeCount=76, ConflictIdSorter.graphTime=161708, ConflictIdSorter.topsortTime=185792, ConflictIdSorter.conflictIdCount=32, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2442208, ConflictResolver.conflictItemCount=71, DfDependencyCollector.collectTime=110507083, DfDependencyCollector.transformTime=4041917}
+[DEBUG] org.aom:messaging-api-tests:jar:1.0-SNAPSHOT
+[DEBUG]    org.aom:messaging-api:jar:1.0-SNAPSHOT:compile
+[DEBUG]    io.cucumber:cucumber-java:jar:7.14.0:test
+[DEBUG]       io.cucumber:cucumber-core:jar:7.14.0:test
+[DEBUG]          io.cucumber:cucumber-gherkin:jar:7.14.0:test
+[DEBUG]          io.cucumber:cucumber-gherkin-messages:jar:7.14.0:test
+[DEBUG]             io.cucumber:gherkin:jar:26.2.0:test
+[DEBUG]          io.cucumber:messages:jar:22.0.0:test
+[DEBUG]          io.cucumber:tag-expressions:jar:5.0.6:test
+[DEBUG]          io.cucumber:cucumber-expressions:jar:16.1.2:test
+[DEBUG]          io.cucumber:datatable:jar:7.14.0:test
+[DEBUG]          io.cucumber:cucumber-plugin:jar:7.14.0:test
+[DEBUG]          io.cucumber:docstring:jar:7.14.0:test
+[DEBUG]          io.cucumber:html-formatter:jar:20.4.0:test
+[DEBUG]          io.cucumber:junit-xml-formatter:jar:0.2.0:test
+[DEBUG]          io.cucumber:ci-environment:jar:9.2.0:test
+[DEBUG]       org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]    io.cucumber:cucumber-junit-platform-engine:jar:7.14.0:test
+[DEBUG]       org.junit.platform:junit-platform-engine:jar:1.10.0:test
+[DEBUG]          org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.10.0:test
+[DEBUG]    org.junit.jupiter:junit-jupiter:jar:5.10.1:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-params:jar:5.10.1:test
+[DEBUG]       org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:test
+[DEBUG]    org.springframework:spring-context:jar:6.2.7:test
+[DEBUG]       org.springframework:spring-aop:jar:6.2.7:test
+[DEBUG]       org.springframework:spring-beans:jar:6.2.7:test
+[DEBUG]       org.springframework:spring-core:jar:6.2.7:test
+[DEBUG]          org.springframework:spring-jcl:jar:6.2.7:test
+[DEBUG]       org.springframework:spring-expression:jar:6.2.7:test
+[DEBUG]       io.micrometer:micrometer-observation:jar:1.14.7:test
+[DEBUG]          io.micrometer:micrometer-commons:jar:1.14.7:test
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ messaging-api-tests ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=11458, ConflictMarker.markTime=27667, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=4291, ConflictIdSorter.topsortTime=6792, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=114833, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=12249125, DfDependencyCollector.transformTime=174292}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = /Users/kjss920/ideaProjects/messaging-api-tests/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]   (f) reportDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /Users/kjss920/ideaProjects/messaging-api-tests/target
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports/TEST-org.example.SanityTests.xml
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports/org.example.SanityTests.txt
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports/2025-07-06T12-29-05_147-jvmRun1-events.bin
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports/2025-07-06T12-29-05_147-jvmRun1-commands.bin
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin/testCompile
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/maven-status
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-sources/annotations
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-sources
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire/surefire-20250706122905187_1tmp
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire/surefirebooter-20250706122905187_3.jar
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire/surefire_0-20250706122905187_2tmp
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/cucumber.properties
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/stepdefs/NotificationSteps.class
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/stepdefs
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/SanityTests.class
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/runner/RunCucumberTests.class
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/runner
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/SpringContextHolder.class
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example/SpringHooks.class
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org/example
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/org
+[INFO] Deleting file /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/message.feature
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[INFO] Deleting directory /Users/kjss920/ideaProjects/messaging-api-tests/target
+[DEBUG] Skipping non-existing directory /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG] Skipping non-existing directory /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG] Skipping non-existing directory /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ messaging-api-tests ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=36541, ConflictMarker.markTime=31584, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=12708, ConflictIdSorter.topsortTime=7792, ConflictIdSorter.conflictIdCount=9, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=112250, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=28548500, DfDependencyCollector.transformTime=211667}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.26:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.5.1:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.3.1:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.12.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.26
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.12.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.aom:messaging-api-tests:1.0-SNAPSHOT @ /Users/kjss920/ideaProjects/messaging-api-tests/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kjss920/ideaProjects/messaging-api-tests/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf
+[DEBUG] cucumber.version: 7.14.0
+[DEBUG] env.COMMAND_MODE: unix2003
+[DEBUG] env.DOCKER_HOST: unix:///Users/kjss920/.colima/default/docker.sock
+[DEBUG] env.DT_DEFAULT_PRODUCT: boost
+[DEBUG] env.HOME: /Users/kjss920
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /Users/kjss920/.sdkman/candidates/java/current
+[DEBUG] env.LC_CTYPE: UTF-8
+[DEBUG] env.LESS: -R
+[DEBUG] env.LOGNAME: kjss920
+[DEBUG] env.LSCOLORS: Gxfxcxdxbxegedabagacad
+[DEBUG] env.LS_COLORS: di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  clean test -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.NVM_BIN: /Users/kjss920/.nvm/versions/node/v16.20.2/bin
+[DEBUG] env.NVM_CD_FLAGS: -q
+[DEBUG] env.NVM_DIR: /Users/kjss920/.nvm
+[DEBUG] env.NVM_INC: /Users/kjss920/.nvm/versions/node/v16.20.2/include/node
+[DEBUG] env.OLDPWD: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.PAGER: less
+[DEBUG] env.PATH: /Users/kjss920/.nvm/versions/node/v16.20.2/bin/node:/Users/kjss920/.nvm/versions/node/v16.20.2/bin:/Users/kjss920/.nvm/versions/node/v16.20.2/bin:/opt/homebrew/opt/node@16/bin:/Users/kjss920/.sdkman/candidates/java/current/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/laps:/Users/kjss920/Library/Python/3.13/bin:/Users/kjss920/.local/bin:/Users/kjss920/Library/Python/3.13/bin:/Users/kjss920/.local/bin:/usr/local/mysql-8.4.5-macos15-arm64/bin:/Users/kjss920/Library/Python/3.9/lib/python/site-packages
+[DEBUG] env.PWD: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.SDKMAN_CANDIDATES_API: https://api.sdkman.io/2
+[DEBUG] env.SDKMAN_CANDIDATES_DIR: /Users/kjss920/.sdkman/candidates
+[DEBUG] env.SDKMAN_DIR: /Users/kjss920/.sdkman
+[DEBUG] env.SDKMAN_PLATFORM: darwinarm64
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.wU59q4VtiI/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERMINAL_EMULATOR: JetBrains-JediTerm
+[DEBUG] env.TERM_SESSION_ID: 53285d55-f1b8-452c-8fce-ee96a6cb99a7
+[DEBUG] env.TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE: /var/run/docker.sock
+[DEBUG] env.TESTCONTAINERS_HOST_OVERRIDE: null
+[DEBUG] env.TMPDIR: /var/folders/kf/vb08fz1n3dx22smhwcqdrmkc0000gp/T/
+[DEBUG] env.USER: kjss920
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.ZSH: /Users/kjss920/.oh-my-zsh
+[DEBUG] env.__CFBundleIdentifier: com.jetbrains.intellij
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F6:0x0:0x0
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] java.class.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 65.0
+[DEBUG] java.home: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem
+[DEBUG] java.io.tmpdir: /var/folders/kf/vb08fz1n3dx22smhwcqdrmkc0000gp/T/
+[DEBUG] java.library.path: /Users/kjss920/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 21.0.6+7-LTS
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 21
+[DEBUG] java.vendor: Eclipse Adoptium
+[DEBUG] java.vendor.url: https://adoptium.net/
+[DEBUG] java.vendor.url.bug: https://github.com/adoptium/adoptium-support/issues
+[DEBUG] java.vendor.version: Temurin-21.0.6+7
+[DEBUG] java.version: 21.0.6
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 21
+[DEBUG] java.vm.vendor: Eclipse Adoptium
+[DEBUG] java.vm.version: 21.0.6+7-LTS
+[DEBUG] jdk.debug: release
+[DEBUG] junit.version: 5.10.1
+[DEBUG] library.jansi.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2025-07-06T07:17:03Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.source: 17
+[DEBUG] maven.compiler.target: 17
+[DEBUG] maven.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/conf
+[DEBUG] maven.home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+[DEBUG] maven.multiModuleProjectDirectory: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 15.5
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/kjss920/ideaProjects/messaging-api-tests/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] sonar.host.url: ${env.SONARQUBE_HOST_URL}
+[DEBUG] sonar.login: ${env.SONARQUBE_USERNAME}
+[DEBUG] sonar.password: ${env.SONARQUBE_PASSWORD}
+[DEBUG] spring.version: 6.2.7
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean test -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: US
+[DEBUG] user.dir: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] user.home: /Users/kjss920
+[DEBUG] user.language: en
+[DEBUG] user.name: kjss920
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/kjss920/ideaProjects/messaging-api-tests/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ messaging-api-tests ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=74042, ConflictMarker.markTime=41333, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=16958, ConflictIdSorter.topsortTime=11708, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=198833, ConflictResolver.conflictItemCount=22, DfDependencyCollector.collectTime=32818458, DfDependencyCollector.transformTime=354125}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.2.0:compile
+[DEBUG]       org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.15.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.0:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.13.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.15.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG]   (f) buildDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target
+[DEBUG]   (f) compilePath = [/Users/kjss920/ideaProjects/messaging-api-tests/target/classes, /Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar]
+[DEBUG]   (f) compileSourceRoots = [/Users/kjss920/ideaProjects/messaging-api-tests/src/main/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: org.aom:messaging-api-tests:1.0-SNAPSHOT @ /Users/kjss920/ideaProjects/messaging-api-tests/pom.xml
+[DEBUG]   (f) projectArtifact = org.aom:messaging-api-tests:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 17
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 17
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-sources/annotations to compile source roots:
+  /Users/kjss920/ideaProjects/messaging-api-tests/src/main/java
+[DEBUG] New compile source roots:
+  /Users/kjss920/ideaProjects/messaging-api-tests/src/main/java
+  /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ messaging-api-tests ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.3.1:testResources:default-testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.aom:messaging-api-tests:1.0-SNAPSHOT @ /Users/kjss920/ideaProjects/messaging-api-tests/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] apple.awt.application.name: Launcher
+[DEBUG] classworlds.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/bin/m2.conf
+[DEBUG] cucumber.version: 7.14.0
+[DEBUG] env.COMMAND_MODE: unix2003
+[DEBUG] env.DOCKER_HOST: unix:///Users/kjss920/.colima/default/docker.sock
+[DEBUG] env.DT_DEFAULT_PRODUCT: boost
+[DEBUG] env.HOME: /Users/kjss920
+[DEBUG] env.HOMEBREW_CELLAR: /opt/homebrew/Cellar
+[DEBUG] env.HOMEBREW_PREFIX: /opt/homebrew
+[DEBUG] env.HOMEBREW_REPOSITORY: /opt/homebrew
+[DEBUG] env.INFOPATH: /opt/homebrew/share/info:
+[DEBUG] env.JAVA_HOME: /Users/kjss920/.sdkman/candidates/java/current
+[DEBUG] env.LC_CTYPE: UTF-8
+[DEBUG] env.LESS: -R
+[DEBUG] env.LOGNAME: kjss920
+[DEBUG] env.LSCOLORS: Gxfxcxdxbxegedabagacad
+[DEBUG] env.LS_COLORS: di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+[DEBUG] env.MAVEN_CMD_LINE_ARGS:  clean test -X
+[DEBUG] env.MAVEN_PROJECTBASEDIR: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.NVM_BIN: /Users/kjss920/.nvm/versions/node/v16.20.2/bin
+[DEBUG] env.NVM_CD_FLAGS: -q
+[DEBUG] env.NVM_DIR: /Users/kjss920/.nvm
+[DEBUG] env.NVM_INC: /Users/kjss920/.nvm/versions/node/v16.20.2/include/node
+[DEBUG] env.OLDPWD: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.PAGER: less
+[DEBUG] env.PATH: /Users/kjss920/.nvm/versions/node/v16.20.2/bin/node:/Users/kjss920/.nvm/versions/node/v16.20.2/bin:/Users/kjss920/.nvm/versions/node/v16.20.2/bin:/opt/homebrew/opt/node@16/bin:/Users/kjss920/.sdkman/candidates/java/current/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/laps:/Users/kjss920/Library/Python/3.13/bin:/Users/kjss920/.local/bin:/Users/kjss920/Library/Python/3.13/bin:/Users/kjss920/.local/bin:/usr/local/mysql-8.4.5-macos15-arm64/bin:/Users/kjss920/Library/Python/3.9/lib/python/site-packages
+[DEBUG] env.PWD: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] env.SDKMAN_CANDIDATES_API: https://api.sdkman.io/2
+[DEBUG] env.SDKMAN_CANDIDATES_DIR: /Users/kjss920/.sdkman/candidates
+[DEBUG] env.SDKMAN_DIR: /Users/kjss920/.sdkman
+[DEBUG] env.SDKMAN_PLATFORM: darwinarm64
+[DEBUG] env.SHELL: /bin/zsh
+[DEBUG] env.SHLVL: 1
+[DEBUG] env.SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.wU59q4VtiI/Listeners
+[DEBUG] env.TERM: xterm-256color
+[DEBUG] env.TERMINAL_EMULATOR: JetBrains-JediTerm
+[DEBUG] env.TERM_SESSION_ID: 53285d55-f1b8-452c-8fce-ee96a6cb99a7
+[DEBUG] env.TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE: /var/run/docker.sock
+[DEBUG] env.TESTCONTAINERS_HOST_OVERRIDE: null
+[DEBUG] env.TMPDIR: /var/folders/kf/vb08fz1n3dx22smhwcqdrmkc0000gp/T/
+[DEBUG] env.USER: kjss920
+[DEBUG] env.XPC_FLAGS: 0x0
+[DEBUG] env.XPC_SERVICE_NAME: 0
+[DEBUG] env.ZSH: /Users/kjss920/.oh-my-zsh
+[DEBUG] env.__CFBundleIdentifier: com.jetbrains.intellij
+[DEBUG] env.__CF_USER_TEXT_ENCODING: 0x1F6:0x0:0x0
+[DEBUG] file.encoding: UTF-8
+[DEBUG] file.separator: /
+[DEBUG] java.class.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/boot/plexus-classworlds-2.8.0.jar
+[DEBUG] java.class.version: 65.0
+[DEBUG] java.home: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem
+[DEBUG] java.io.tmpdir: /var/folders/kf/vb08fz1n3dx22smhwcqdrmkc0000gp/T/
+[DEBUG] java.library.path: /Users/kjss920/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[DEBUG] java.runtime.name: OpenJDK Runtime Environment
+[DEBUG] java.runtime.version: 21.0.6+7-LTS
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 21
+[DEBUG] java.vendor: Eclipse Adoptium
+[DEBUG] java.vendor.url: https://adoptium.net/
+[DEBUG] java.vendor.url.bug: https://github.com/adoptium/adoptium-support/issues
+[DEBUG] java.vendor.version: Temurin-21.0.6+7
+[DEBUG] java.version: 21.0.6
+[DEBUG] java.version.date: 2025-01-21
+[DEBUG] java.vm.compressedOopsMode: Zero based
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: OpenJDK 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 21
+[DEBUG] java.vm.vendor: Eclipse Adoptium
+[DEBUG] java.vm.version: 21.0.6+7-LTS
+[DEBUG] jdk.debug: release
+[DEBUG] junit.version: 5.10.1
+[DEBUG] library.jansi.path: /opt/homebrew/Cellar/maven/3.9.9/libexec/lib/jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2025-07-06T07:17:03Z
+[DEBUG] maven.build.version: Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+[DEBUG] maven.compiler.source: 17
+[DEBUG] maven.compiler.target: 17
+[DEBUG] maven.conf: /opt/homebrew/Cellar/maven/3.9.9/libexec/conf
+[DEBUG] maven.home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+[DEBUG] maven.multiModuleProjectDirectory: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] maven.version: 3.9.9
+[DEBUG] native.encoding: UTF-8
+[DEBUG] os.arch: aarch64
+[DEBUG] os.name: Mac OS X
+[DEBUG] os.version: 15.5
+[DEBUG] path.separator: :
+[DEBUG] project.baseUri: file:/Users/kjss920/ideaProjects/messaging-api-tests/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] sonar.host.url: ${env.SONARQUBE_HOST_URL}
+[DEBUG] sonar.login: ${env.SONARQUBE_USERNAME}
+[DEBUG] sonar.password: ${env.SONARQUBE_PASSWORD}
+[DEBUG] spring.version: 6.2.7
+[DEBUG] stderr.encoding: UTF-8
+[DEBUG] stdout.encoding: UTF-8
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem/lib
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.io.unicode.encoding: UnicodeBig
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean test -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: UTF-8
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] user.country: US
+[DEBUG] user.dir: /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] user.home: /Users/kjss920
+[DEBUG] user.language: en
+[DEBUG] user.name: kjss920
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory /Users/kjss920/ideaProjects/messaging-api-tests/src/test/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 2 resources from src/test/resources to target/test-classes
+[DEBUG] Copying file message.feature
+[DEBUG] file message.feature has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'message.feature'.
+[DEBUG] copy /Users/kjss920/ideaProjects/messaging-api-tests/src/test/resources/message.feature to /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/message.feature
+[DEBUG] Copying file cucumber.properties
+[DEBUG] file cucumber.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'cucumber.properties'.
+[DEBUG] copy /Users/kjss920/ideaProjects/messaging-api-tests/src/test/resources/cucumber.properties to /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes/cucumber.properties
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ messaging-api-tests ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.13.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile:default-testCompile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG]   (f) buildDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target
+[DEBUG]   (f) compileSourceRoots = [/Users/kjss920/ideaProjects/messaging-api-tests/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac-test
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: org.aom:messaging-api-tests:1.0-SNAPSHOT @ /Users/kjss920/ideaProjects/messaging-api-tests/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 17
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 17
+[DEBUG]   (f) testPath = [/Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes, /Users/kjss920/ideaProjects/messaging-api-tests/target/classes, /Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar, /Users/kjss920/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar, /Users/kjss920/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar, /Users/kjss920/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar, /Users/kjss920/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar, /Users/kjss920/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar, /Users/kjss920/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar, /Users/kjss920/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar, /Users/kjss920/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar, /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar, /Users/kjss920/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar, /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar, /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar, /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar, /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar, /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar, /Users/kjss920/.m2/repository/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar, /Users/kjss920/.m2/repository/org/springframework/spring-aop/6.2.7/spring-aop-6.2.7.jar, /Users/kjss920/.m2/repository/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar, /Users/kjss920/.m2/repository/org/springframework/spring-core/6.2.7/spring-core-6.2.7.jar, /Users/kjss920/.m2/repository/org/springframework/spring-jcl/6.2.7/spring-jcl-6.2.7.jar, /Users/kjss920/.m2/repository/org/springframework/spring-expression/6.2.7/spring-expression-6.2.7.jar, /Users/kjss920/.m2/repository/io/micrometer/micrometer-observation/1.14.7/micrometer-observation-1.14.7.jar, /Users/kjss920/.m2/repository/io/micrometer/micrometer-commons/1.14.7/micrometer-commons-1.14.7.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations to test-compile source roots:
+  /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java
+[DEBUG] New test-compile source roots:
+  /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java
+  /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SanityTests.java
+[INFO] 	Stale source detected: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SpringContextHolder.java
+[INFO] 	Stale source detected: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/stepdefs/NotificationSteps.java
+[INFO] 	Stale source detected: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SpringHooks.java
+[INFO] 	Stale source detected: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/runner/RunCucumberTests.java
+[INFO] 	Input tree files (+): /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SanityTests.java
+[INFO] 	Input tree files (+): /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SpringContextHolder.java
+[INFO] 	Input tree files (+): /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/SpringHooks.java
+[INFO] 	Input tree files (+): /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/runner/RunCucumberTests.java
+[INFO] 	Input tree files (+): /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/stepdefs/NotificationSteps.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG]  /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]  /Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-aop/6.2.7/spring-aop-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-core/6.2.7/spring-core-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-jcl/6.2.7/spring-jcl-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/org/springframework/spring-expression/6.2.7/spring-expression-6.2.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/micrometer/micrometer-observation/1.14.7/micrometer-observation-1.14.7.jar
+[DEBUG]  /Users/kjss920/.m2/repository/io/micrometer/micrometer-commons/1.14.7/micrometer-commons-1.14.7.jar
+[DEBUG] Source roots:
+[DEBUG]  /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java
+[DEBUG]  /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations
+[DEBUG] Command line options:
+[DEBUG] -d /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes -classpath /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes:/Users/kjss920/ideaProjects/messaging-api-tests/target/classes:/Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/kjss920/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/kjss920/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/kjss920/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/kjss920/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/kjss920/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/kjss920/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/kjss920/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/kjss920/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:/Users/kjss920/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/kjss920/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/kjss920/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar:/Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar:/Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/Users/kjss920/.m2/repository/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar:/Users/kjss920/.m2/repository/org/springframework/spring-aop/6.2.7/spring-aop-6.2.7.jar:/Users/kjss920/.m2/repository/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar:/Users/kjss920/.m2/repository/org/springframework/spring-core/6.2.7/spring-core-6.2.7.jar:/Users/kjss920/.m2/repository/org/springframework/spring-jcl/6.2.7/spring-jcl-6.2.7.jar:/Users/kjss920/.m2/repository/org/springframework/spring-expression/6.2.7/spring-expression-6.2.7.jar:/Users/kjss920/.m2/repository/io/micrometer/micrometer-observation/1.14.7/micrometer-observation-1.14.7.jar:/Users/kjss920/.m2/repository/io/micrometer/micrometer-commons/1.14.7/micrometer-commons-1.14.7.jar: -sourcepath /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java:/Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations: -s /Users/kjss920/ideaProjects/messaging-api-tests/target/generated-test-sources/test-annotations -g -target 17 -source 17 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 5 source files with javac [debug target 17] to target/test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/runner/RunCucumberTests.java: /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/runner/RunCucumberTests.java uses or overrides a deprecated API.
+[INFO] /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java/org/example/runner/RunCucumberTests.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ messaging-api-tests ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for jboss-public-repository-group (http://repository.jboss.org/nexus/content/groups/public).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=125542, ConflictMarker.markTime=53417, ConflictMarker.nodeCount=78, ConflictIdSorter.graphTime=66000, ConflictIdSorter.topsortTime=26042, ConflictIdSorter.conflictIdCount=39, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=739125, ConflictResolver.conflictItemCount=76, DfDependencyCollector.collectTime=84804083, DfDependencyCollector.transformTime=1029333}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:3.2.5
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:3.2.5:compile
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile
+[DEBUG]          org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile
+[DEBUG]          org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-artifact:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.codehaus.plexus:plexus-utils:jar:4.0.0:provided (version managed from default)
+[DEBUG]          org.apache.maven:maven-core:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings:jar:3.2.5:provided (version managed from default)
+[DEBUG]             org.apache.maven:maven-settings-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.2.5:provided
+[DEBUG]             org.apache.maven:maven-aether-provider:jar:3.2.5:provided
+[DEBUG]                org.eclipse.aether:aether-spi:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.aether:aether-impl:jar:1.0.0.v20140518:provided
+[DEBUG]             org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M2:provided (version managed from default)
+[DEBUG]                javax.annotation:javax.annotation-api:jar:1.2:provided
+[DEBUG]                javax.enterprise:cdi-api:jar:1.2:provided
+[DEBUG]                org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M2:provided (version managed from default)
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:3.2.3:provided
+[DEBUG]                javax.inject:javax.inject:jar:1:provided
+[DEBUG]                aopalliance:aopalliance:jar:1.0:provided
+[DEBUG]                com.google.guava:guava:jar:16.0.1:provided
+[DEBUG]             org.codehaus.plexus:plexus-interpolation:jar:1.21:provided
+[DEBUG]             org.codehaus.plexus:plexus-classworlds:jar:2.5.2:provided
+[DEBUG]             org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:provided
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:provided
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.4:provided
+[DEBUG]          org.apache.maven:maven-plugin-api:jar:3.2.5:provided (scope managed from default) (version managed from default)
+[DEBUG]          commons-io:commons-io:jar:2.15.1:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:1.2.0:compile (version managed from default)
+[DEBUG]          org.ow2.asm:asm:jar:9.6:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0.3:compile
+[DEBUG]       org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.15.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.2.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.6
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0.3
+[DEBUG]   Included: org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:3.2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2c854dc5]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test:default-test' with basic configurator -->
+[DEBUG]   (f) additionalClasspathDependencies = []
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (f) classesDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (s) excludeJUnit5Engines = []
+[DEBUG]   (f) excludedEnvironmentVariables = []
+[DEBUG]   (s) excludes = []
+[DEBUG]   (s) failIfNoSpecifiedTests = true
+[DEBUG]   (s) failIfNoTests = false
+[DEBUG]   (s) failOnFlakeCount = 0
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) includeJUnit5Engines = []
+[DEBUG]   (s) includes = []
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:3.2.5:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:3.2.5:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-api=org.apache.maven.surefire:surefire-extensions-api:jar:3.2.5:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:3.2.5:compile, org.apache.maven.surefire:surefire-extensions-spi=org.apache.maven.surefire:surefire-extensions-spi:jar:3.2.5:compile, org.eclipse.aether:aether-util=org.eclipse.aether:aether-util:jar:1.0.0.v20140518:compile, org.eclipse.aether:aether-api=org.eclipse.aether:aether-api:jar:1.0.0.v20140518:compile, org.apache.maven.shared:maven-common-artifact-filters=org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1:compile, commons-io:commons-io=commons-io:commons-io:jar:2.15.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:1.2.0:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:9.6:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0.3:compile, org.apache.maven.surefire:surefire-shared-utils=org.apache.maven.surefire:surefire-shared-utils:jar:3.2.5:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugins.maven_surefire_plugin.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) project = MavenProject: org.aom:messaging-api-tests:1.0-SNAPSHOT @ /Users/kjss920/ideaProjects/messaging-api-tests/pom.xml
+[DEBUG]   (s) projectArtifactMap = {org.aom:messaging-api=org.aom:messaging-api:jar:1.0-SNAPSHOT:compile, io.cucumber:cucumber-java=io.cucumber:cucumber-java:jar:7.14.0:test, io.cucumber:cucumber-core=io.cucumber:cucumber-core:jar:7.14.0:test, io.cucumber:cucumber-gherkin=io.cucumber:cucumber-gherkin:jar:7.14.0:test, io.cucumber:cucumber-gherkin-messages=io.cucumber:cucumber-gherkin-messages:jar:7.14.0:test, io.cucumber:gherkin=io.cucumber:gherkin:jar:26.2.0:test, io.cucumber:messages=io.cucumber:messages:jar:22.0.0:test, io.cucumber:tag-expressions=io.cucumber:tag-expressions:jar:5.0.6:test, io.cucumber:cucumber-expressions=io.cucumber:cucumber-expressions:jar:16.1.2:test, io.cucumber:datatable=io.cucumber:datatable:jar:7.14.0:test, io.cucumber:cucumber-plugin=io.cucumber:cucumber-plugin:jar:7.14.0:test, io.cucumber:docstring=io.cucumber:docstring:jar:7.14.0:test, io.cucumber:html-formatter=io.cucumber:html-formatter:jar:20.4.0:test, io.cucumber:junit-xml-formatter=io.cucumber:junit-xml-formatter:jar:0.2.0:test, io.cucumber:ci-environment=io.cucumber:ci-environment:jar:9.2.0:test, org.apiguardian:apiguardian-api=org.apiguardian:apiguardian-api:jar:1.1.2:test, io.cucumber:cucumber-junit-platform-engine=io.cucumber:cucumber-junit-platform-engine:jar:7.14.0:test, org.junit.platform:junit-platform-engine=org.junit.platform:junit-platform-engine:jar:1.10.0:test, org.opentest4j:opentest4j=org.opentest4j:opentest4j:jar:1.3.0:test, org.junit.platform:junit-platform-commons=org.junit.platform:junit-platform-commons:jar:1.10.0:test, org.junit.jupiter:junit-jupiter=org.junit.jupiter:junit-jupiter:jar:5.10.1:test, org.junit.jupiter:junit-jupiter-api=org.junit.jupiter:junit-jupiter-api:jar:5.10.1:test, org.junit.jupiter:junit-jupiter-params=org.junit.jupiter:junit-jupiter-params:jar:5.10.1:test, org.junit.jupiter:junit-jupiter-engine=org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:test, org.springframework:spring-context=org.springframework:spring-context:jar:6.2.7:test, org.springframework:spring-aop=org.springframework:spring-aop:jar:6.2.7:test, org.springframework:spring-beans=org.springframework:spring-beans:jar:6.2.7:test, org.springframework:spring-core=org.springframework:spring-core:jar:6.2.7:test, org.springframework:spring-jcl=org.springframework:spring-jcl:jar:6.2.7:test, org.springframework:spring-expression=org.springframework:spring-expression:jar:6.2.7:test, io.micrometer:micrometer-observation=io.micrometer:micrometer-observation:jar:1.14.7:test, io.micrometer:micrometer-commons=io.micrometer:micrometer-commons:jar:1.14.7:test}
+[DEBUG]   (s) projectBuildDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@144ab54
+[DEBUG]   (f) shutdown = exit
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /Users/kjss920/ideaProjects/messaging-api-tests/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = false
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /Users/kjss920/ideaProjects/messaging-api-tests
+[DEBUG] -- end configuration --
+[DEBUG] Using JVM: /Users/kjss920/.sdkman/candidates/java/21.0.6-tem/bin/java with Java version 21.0
+[DEBUG] Resolved included and excluded patterns: **/Test*.java, **/*Test.java, **/*Tests.java, **/*TestCase.java, !**/*$*
+[DEBUG] Surefire report directory: /Users/kjss920/ideaProjects/messaging-api-tests/target/surefire-reports
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[DEBUG] Using the provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[DEBUG] Setting system property [basedir]=[/Users/kjss920/ideaProjects/messaging-api-tests]
+[DEBUG] Setting system property [localRepository]=[/Users/kjss920/.m2/repository]
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=29584, ConflictMarker.markTime=15541, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=7000, ConflictIdSorter.topsortTime=6625, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=73167, ConflictResolver.conflictItemCount=6, DfDependencyCollector.collectTime=2413166, DfDependencyCollector.transformTime=140584}
+[DEBUG] Found implementation of fork node factory: org.apache.maven.plugin.surefire.extensions.LegacyForkNodeFactory
+[DEBUG] Using fork starter with configuration implementation org.apache.maven.plugin.surefire.booterclient.JarManifestForkConfiguration
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=30250, ConflictMarker.markTime=14334, ConflictMarker.nodeCount=15, ConflictIdSorter.graphTime=18334, ConflictIdSorter.topsortTime=7583, ConflictIdSorter.conflictIdCount=10, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=101333, ConflictResolver.conflictItemCount=14, DfDependencyCollector.collectTime=10100250, DfDependencyCollector.transformTime=182417}
+[DEBUG] Resolving artifact org.junit.platform:junit-platform-launcher:1.10.0
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=13125, ConflictMarker.markTime=11500, ConflictMarker.nodeCount=8, ConflictIdSorter.graphTime=14917, ConflictIdSorter.topsortTime=6625, ConflictIdSorter.conflictIdCount=5, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=53333, ConflictResolver.conflictItemCount=7, DfDependencyCollector.collectTime=1049083, DfDependencyCollector.transformTime=107500}
+[DEBUG] Resolved artifact org.junit.platform:junit-platform-launcher:1.10.0 to [org.junit.platform:junit-platform-launcher:jar:1.10.0, org.junit.platform:junit-platform-engine:jar:1.10.0, org.opentest4j:opentest4j:jar:1.3.0, org.junit.platform:junit-platform-commons:jar:1.10.0, org.apiguardian:apiguardian-api:jar:1.1.2]
+[DEBUG] test classpath:  /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes  /Users/kjss920/ideaProjects/messaging-api-tests/target/classes  /Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar  /Users/kjss920/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar  /Users/kjss920/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar  /Users/kjss920/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar  /Users/kjss920/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar  /Users/kjss920/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar  /Users/kjss920/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar  /Users/kjss920/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar  /Users/kjss920/.m2/repository/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-aop/6.2.7/spring-aop-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-core/6.2.7/spring-core-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-jcl/6.2.7/spring-jcl-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-expression/6.2.7/spring-expression-6.2.7.jar  /Users/kjss920/.m2/repository/io/micrometer/micrometer-observation/1.14.7/micrometer-observation-1.14.7.jar  /Users/kjss920/.m2/repository/io/micrometer/micrometer-commons/1.14.7/micrometer-commons-1.14.7.jar
+[DEBUG] provider classpath:  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.2.5/surefire-junit-platform-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  messaging-api-1.0-SNAPSHOT.jar  cucumber-java-7.14.0.jar  cucumber-core-7.14.0.jar  cucumber-gherkin-7.14.0.jar  cucumber-gherkin-messages-7.14.0.jar  gherkin-26.2.0.jar  messages-22.0.0.jar  tag-expressions-5.0.6.jar  cucumber-expressions-16.1.2.jar  datatable-7.14.0.jar  cucumber-plugin-7.14.0.jar  docstring-7.14.0.jar  html-formatter-20.4.0.jar  junit-xml-formatter-0.2.0.jar  ci-environment-9.2.0.jar  apiguardian-api-1.1.2.jar  cucumber-junit-platform-engine-7.14.0.jar  junit-platform-engine-1.10.0.jar  opentest4j-1.3.0.jar  junit-platform-commons-1.10.0.jar  junit-jupiter-5.10.1.jar  junit-jupiter-api-5.10.1.jar  junit-jupiter-params-5.10.1.jar  junit-jupiter-engine-5.10.1.jar  spring-context-6.2.7.jar  spring-aop-6.2.7.jar  spring-beans-6.2.7.jar  spring-core-6.2.7.jar  spring-jcl-6.2.7.jar  spring-expression-6.2.7.jar  micrometer-observation-1.14.7.jar  micrometer-commons-1.14.7.jar
+[DEBUG] provider(compact) classpath:  surefire-junit-platform-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  common-java5-3.2.5.jar  junit-platform-launcher-1.10.0.jar
+[DEBUG] in-process classpath:  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.2.5/surefire-junit-platform-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar
+[DEBUG] in-process(compact) classpath:  surefire-junit-platform-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  common-java5-3.2.5.jar  junit-platform-launcher-1.10.0.jar  maven-surefire-common-3.2.5.jar  surefire-booter-3.2.5.jar  surefire-extensions-api-3.2.5.jar  surefire-extensions-spi-3.2.5.jar
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[DEBUG] Determined Maven Process ID 11795
+[DEBUG] Fork Channel [1] connection string 'pipe://1' for the implementation class org.apache.maven.plugin.surefire.extensions.LegacyForkChannel
+[DEBUG] boot classpath:  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar  /Users/kjss920/ideaProjects/messaging-api-tests/target/test-classes  /Users/kjss920/ideaProjects/messaging-api-tests/target/classes  /Users/kjss920/.m2/repository/org/aom/messaging-api/1.0-SNAPSHOT/messaging-api-1.0-SNAPSHOT.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar  /Users/kjss920/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar  /Users/kjss920/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar  /Users/kjss920/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar  /Users/kjss920/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar  /Users/kjss920/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar  /Users/kjss920/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar  /Users/kjss920/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar  /Users/kjss920/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar  /Users/kjss920/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar  /Users/kjss920/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar  /Users/kjss920/.m2/repository/org/springframework/spring-context/6.2.7/spring-context-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-aop/6.2.7/spring-aop-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-beans/6.2.7/spring-beans-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-core/6.2.7/spring-core-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-jcl/6.2.7/spring-jcl-6.2.7.jar  /Users/kjss920/.m2/repository/org/springframework/spring-expression/6.2.7/spring-expression-6.2.7.jar  /Users/kjss920/.m2/repository/io/micrometer/micrometer-observation/1.14.7/micrometer-observation-1.14.7.jar  /Users/kjss920/.m2/repository/io/micrometer/micrometer-commons/1.14.7/micrometer-commons-1.14.7.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.2.5/surefire-junit-platform-3.2.5.jar  /Users/kjss920/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar  /Users/kjss920/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.0/junit-platform-launcher-1.10.0.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-3.2.5.jar  surefire-api-3.2.5.jar  surefire-logger-api-3.2.5.jar  surefire-shared-utils-3.2.5.jar  surefire-extensions-spi-3.2.5.jar  test-classes  classes  messaging-api-1.0-SNAPSHOT.jar  cucumber-java-7.14.0.jar  cucumber-core-7.14.0.jar  cucumber-gherkin-7.14.0.jar  cucumber-gherkin-messages-7.14.0.jar  gherkin-26.2.0.jar  messages-22.0.0.jar  tag-expressions-5.0.6.jar  cucumber-expressions-16.1.2.jar  datatable-7.14.0.jar  cucumber-plugin-7.14.0.jar  docstring-7.14.0.jar  html-formatter-20.4.0.jar  junit-xml-formatter-0.2.0.jar  ci-environment-9.2.0.jar  apiguardian-api-1.1.2.jar  cucumber-junit-platform-engine-7.14.0.jar  junit-platform-engine-1.10.0.jar  opentest4j-1.3.0.jar  junit-platform-commons-1.10.0.jar  junit-jupiter-5.10.1.jar  junit-jupiter-api-5.10.1.jar  junit-jupiter-params-5.10.1.jar  junit-jupiter-engine-5.10.1.jar  spring-context-6.2.7.jar  spring-aop-6.2.7.jar  spring-beans-6.2.7.jar  spring-core-6.2.7.jar  spring-jcl-6.2.7.jar  spring-expression-6.2.7.jar  micrometer-observation-1.14.7.jar  micrometer-commons-1.14.7.jar  surefire-junit-platform-3.2.5.jar  common-java5-3.2.5.jar  junit-platform-launcher-1.10.0.jar
+[DEBUG] Forking command line: /bin/sh -c cd '/Users/kjss920/ideaProjects/messaging-api-tests' && '/Users/kjss920/.sdkman/candidates/java/21.0.6-tem/bin/java' '-jar' '/Users/kjss920/ideaProjects/messaging-api-tests/target/surefire/surefirebooter-20250706124704362_3.jar' '/Users/kjss920/ideaProjects/messaging-api-tests/target/surefire' '2025-07-06T12-47-04_319-jvmRun1' 'surefire-20250706124704362_1tmp' 'surefire_0-20250706124704362_2tmp'
+[DEBUG] Fork Channel [1] connected to the client.
+[INFO] Running org.example.SanityTests
+JUnit runs!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in org.example.SanityTests
+[DEBUG] Closing the fork 1 after saying GoodBye.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.299 s
+[INFO] Finished at: 2025-07-06T12:47:04+05:30
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
