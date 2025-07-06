@@ -14,6 +14,7 @@ This project contains BDD (Behavior-Driven Development) tests for the Notificati
 - Java 17 or higher
 - Maven 3.8+
 - (Optional) IntelliJ IDEA 2025.1.3
+- This project tests another github project. That project is https://github.com/abhishekomp/messaging-api which is used as a dependency in this project.
 
 ## Running Tests
 
